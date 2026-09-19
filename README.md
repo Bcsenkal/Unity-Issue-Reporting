@@ -7,10 +7,10 @@ One report contains a description and one bounded file snapshot. The package own
 Install this repository through Unity Package Manager using **Add package from git URL**:
 
 ```
-https://github.com/Another-World-Games/Unity-Issue-Reporting.git#v0.1.0
+https://github.com/Bcsenkal/Unity-Issue-Reporting.git#v0.1.1
 ```
 
-The repository is private, so the machine running Unity needs Git access to the organization. Pin a tag or commit instead of a moving branch. Alternatively, add this repository as a Git submodule at `Packages/com.anotherworld.issue-reporting` and put `"com.anotherworld.issue-reporting": "file:com.anotherworld.issue-reporting"` in `Packages/manifest.json`. The submodule approach also keeps `Relay~/worker.mjs` at a stable path for Wrangler imports.
+The repository is private, so the machine running Unity needs access to `Bcsenkal/Unity-Issue-Reporting`. Pin a tag or commit instead of a moving branch. Alternatively, add this repository as a Git submodule at `Packages/com.anotherworld.issue-reporting` and put `"com.anotherworld.issue-reporting": "file:com.anotherworld.issue-reporting"` in `Packages/manifest.json`. The submodule approach also keeps `Relay~/worker.mjs` at a stable path for Wrangler imports.
 
 Place `Runtime/Prefabs/ReportWindow.prefab` under an active Canvas, then reference its `ReportWindow` component from the host UI owner. The prefab uses UGUI and TextMeshPro; configure a default TMP font in the host project.
 
