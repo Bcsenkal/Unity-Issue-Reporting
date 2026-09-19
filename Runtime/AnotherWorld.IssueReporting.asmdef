@@ -1,0 +1,6 @@
+{
+  "name": "AnotherWorld.IssueReporting",
+  "rootNamespace": "AnotherWorld.IssueReporting",
+  "references": ["Unity.TextMeshPro", "Unity.ugui"],
+  "autoReferenced": true
+}

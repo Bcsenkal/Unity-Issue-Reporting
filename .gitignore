@@ -1,0 +1,6 @@
+Relay~/node_modules/
+Relay~/.wrangler/
+Relay~/wrangler.jsonc
+Relay~/.dev.vars*
+Relay~/.env*
+*.log

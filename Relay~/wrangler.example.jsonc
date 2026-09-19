@@ -1,0 +1,16 @@
+{
+  "$schema": "./node_modules/wrangler/config-schema.json",
+  "name": "replace-with-project-report-relay",
+  "main": "worker.mjs",
+  "compatibility_date": "2026-09-14",
+  "workers_dev": true,
+  "vars": {
+    "PROJECT_NAME": "Your Game",
+    "MAX_UPLOAD_BYTES": "10485760"
+  },
+  "ratelimits": [{
+    "name": "LOG_UPLOAD_LIMITER",
+    "namespace_id": "1234567",
+    "simple": { "limit": 10, "period": 60 }
+  }]
+}

@@ -1,0 +1,11 @@
+{
+  "name": "com.anotherworld.issue-reporting",
+  "version": "0.1.0",
+  "displayName": "Issue Reporting",
+  "description": "A reusable in-game issue report window and bounded file upload client.",
+  "unity": "6000.3",
+  "dependencies": {
+    "com.unity.ugui": "2.0.0"
+  },
+  "keywords": ["report", "diagnostics", "upload"]
+}
