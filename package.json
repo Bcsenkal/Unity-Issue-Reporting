@@ -1,6 +1,6 @@
 {
   "name": "com.anotherworld.issue-reporting",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "displayName": "Issue Reporting",
   "description": "A reusable in-game issue report window and bounded file upload client.",
   "unity": "6000.3",

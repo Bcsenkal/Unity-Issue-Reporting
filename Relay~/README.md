@@ -11,4 +11,4 @@ The relay accepts `application/gzip`, `text/plain`, `application/json`, and `app
 
 The optional `/diagnose` endpoint checks authentication, rate limiting, and Slack's external upload without sharing a file to the channel. It uploads only a fixed diagnostic string and returns `diagnostic_ok` on success. The `/logs` route and legacy headers exist for older clients; new integrations should use `/reports`.
 
-Each game keeps its own Wrangler configuration and secrets. A Git submodule checkout can import `Relay~/worker.mjs` from the package path; a Unity Package Manager Git installation places this folder in the package cache, so copy or vendor the relay into the deployment project at a pinned version. Updating this repository never deploys an existing Worker automatically.
+Each game keeps its own Wrangler configuration and secrets. Copy or vendor this relay into the deployment project at a pinned version; Unity's Git package cache is not a stable source path for Wrangler. Updating this repository never deploys an existing Worker automatically.
